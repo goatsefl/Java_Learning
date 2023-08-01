@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+        AccountConstructor constructor = new AccountConstructor("12221",3500,"Swaroop","Java@swaroop.com","7396456123");
 
+        System.out.println(constructor.getNumber());
+        System.out.println(constructor.getBalance());
+        System.out.println(constructor.getCustomerName());
+        System.out.println(constructor.getEmail());
   /*      Car cars = new Car();
         cars.setMake("Maruti");
         cars.setModel("Baleno");
