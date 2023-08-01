@@ -5,6 +5,13 @@ public class Car {
     private int doors = 4;
     private boolean convertible = false;
 
+/*
+Getter and setter methods are special methods in object-oriented programming
+that are used to access and modify the properties of an object. 
+Getter methods are used to retrieve the value of a property, 
+while setter methods are used to set the value of a property.
+*/
+
     public String getMake(){
         return make;
     }
