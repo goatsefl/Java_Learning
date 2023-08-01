@@ -1,7 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-  /*      Car cars = new Car();
+        //Basic Car
+        Car cars = new Car();
         cars.setMake("Maruti");
         cars.setModel("Baleno");
         cars.setColor("Green");
@@ -9,7 +10,7 @@ public class Main {
         cars.setDoors(4);
         cars.describeCar();
 
-        // New roofless car
+        // Roofless Car
 
         Car targa = new Car();
         targa.setMake("Maruti");
@@ -17,7 +18,9 @@ public class Main {
         targa.setDoors(4);
         targa.setConvertible(true);
         targa.describeCar();
-*/
+
+        // Bank Account Details 
+        
         Bankaccount ptk = new Bankaccount();
         ptk.setAccbalance(50000.00);
         ptk.withdraw(300.82);
