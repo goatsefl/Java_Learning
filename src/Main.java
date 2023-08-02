@@ -1,17 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        AccountConstructor constructor = new AccountConstructor("12221",3500,"Swaroop","Java@swaroop.com","7396456123");
-
-<<<<<<< HEAD
+//        AccountConstructor constructor = new AccountConstructor("12221",3500,"Swaroop","Java@swaroop.com","7396456123");
+        AccountConstructor constructor = new AccountConstructor();
         System.out.println(constructor.getNumber());
         System.out.println(constructor.getBalance());
         System.out.println(constructor.getCustomerName());
         System.out.println(constructor.getEmail());
-  /*      Car cars = new Car();
-=======
+  /*
         //Basic Car
         Car cars = new Car();
->>>>>>> 6c4e5eea1abbf48fd49fc0b5e9d4f30fdd04889e
         cars.setMake("Maruti");
         cars.setModel("Baleno");
         cars.setColor("Green");
@@ -41,6 +38,9 @@ public class Main {
         ptk.setContact("8897007272");
         ptk.describeAcc();
 
+*/
+        AccountConstructor indi = new AccountConstructor("Sreekar","sreekar@gmail.com","8988289221");
 
+        System.out.println(indi.getEmail() +"\n"+ indi.getCustomerName() +"\n"+ indi.getPhone());
     }
 }

@@ -10,8 +10,18 @@ public class AccountConstructor {
     //The constructor's name must be the same as the class name. It cannot have a return type, not even void.
 
     //Empty constructor
+
     public AccountConstructor() {
+        this("12344",3244,"Sriram","sriram@gmail.com","8790989892");
         System.out.println("Empty Constructor");
+    }
+    /* This is a chained constructor, and it has to be specified in the starting of the constructor */
+
+    public AccountConstructor(String customerName, String email, String phone) {
+        this("9909",3999,customerName,email,phone);
+//        this.customerName = customerName;
+//        this.email = email;
+//        this.phone = phone;
     }
 
     //Explicit Constructor with Parameters
@@ -19,8 +29,8 @@ public class AccountConstructor {
         this.number = number;
         this.balance = balance;
         this.customerName = customerName;
-        email = email;
-        phone = phone;
+        this.email = email;
+        this.phone = phone;
     }
 
     public double getBalance() {
