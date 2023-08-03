@@ -45,15 +45,22 @@ public class Main {
 
         // Constructor [Challenge 2]
 
+        //With all Parameters
         Customer id1 = new Customer("Atul VajPayee",50000,"atulpayee@gmail.com");
         System.out.println(id1.getName());
         System.out.println(id1.getCreditLimit());
         System.out.println(id1.getEmail());
 
-        Customer id2 = new Customer();
+        //With 2 parameters
+        Customer id2 = new Customer("Swapnil","swapnilshehzada@gmail.com");
         System.out.println(id2.getName());
         System.out.println(id2.getCreditLimit());
         System.out.println(id2.getEmail());
 
+        // With no parameters
+        Customer id3 = new Customer();
+        System.out.println(id3.getName());
+        System.out.println(id3.getCreditLimit());
+        System.out.println(id3.getEmail());
     }
 }
