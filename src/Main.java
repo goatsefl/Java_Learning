@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 //        AccountConstructor constructor = new AccountConstructor("12221",3500,"Swaroop","Java@swaroop.com","7396456123");
-        AccountConstructor constructor = new AccountConstructor();
+    /*    AccountConstructor constructor = new AccountConstructor();
         System.out.println(constructor.getNumber());
         System.out.println(constructor.getBalance());
         System.out.println(constructor.getCustomerName());
@@ -62,6 +62,52 @@ public class Main {
         System.out.println(id3.getName());
         System.out.println(id3.getCreditLimit());
         System.out.println(id3.getEmail());
+
+        */
+
+        // Pojo Plain Old Java Object
+
+        for (int i = 1; i <= 5; i++) {
+            Student s = new Student("91231" + i,
+                    switch (i) {
+                        case 1 -> "Gurukul";
+                        case 2 -> "Ghanshyaam";
+                        case 3 -> "Suraj";
+                        case 4 -> "Shankar";
+                        case 5 -> "Govind";
+                        default -> "Anonymous";
+                    },
+                    "03/02/2002",
+                    "Java Mastering");
+            System.out.println(s);
+        }
+
+        // NewStudent is a record which eliminates boilerplate code unlike POJO
+
+        for (int i = 1; i <= 5; i++) {
+            NewStudent s1 = new NewStudent("91231" + i,
+                    switch (i) {
+                        case 1 -> "Gurukul";
+                        case 2 -> "Ghanshyaam";
+                        case 3 -> "Suraj";
+                        case 4 -> "Shankar";
+                        case 5 -> "Govind";
+                        default -> "Anonymous";
+                    },
+                    "03/02/2002",
+                    "Java Mastering");
+            System.out.println(s1);
+
+        }
+
+        // Comparing POJO and records :
+
+        Student x = new Student("13445","Aditya","01/01/2001","Python MasterClass");
+        NewStudent y = new NewStudent("23112","Sanjay","12/12/2000","Data Structures and Algorithms");
+
+        System.out.println(x.getName()+" "+x.getId() +" "+x.getClassList()+" "+x.getDateOfBirth());
+        System.out.println(y.id()+" "+y.name()+" "+y.dateOfBirth()+" "+y.classList());
+        
 
     }
 }
