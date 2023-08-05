@@ -107,7 +107,15 @@ public class Main {
 
         System.out.println(x.getName()+" "+x.getId() +" "+x.getClassList()+" "+x.getDateOfBirth());
         System.out.println(y.id()+" "+y.name()+" "+y.dateOfBirth()+" "+y.classList());
-        
+
+        //Challenge [3]
+        Wall wall = new Wall(5,4);
+        System.out.println("area= " + wall.getArea());
+
+        wall.setHeight(-1.5);
+        System.out.println("width= " + wall.getWidth());
+        System.out.println("height= " + wall.getHeight());
+        System.out.println("area= " + wall.getArea());
 
     }
 }
