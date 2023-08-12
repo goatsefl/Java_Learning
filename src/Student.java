@@ -14,7 +14,7 @@ public class Student {
     // Using Annotations for the compiler to know how to deal with methods.
 
     // Whenever System.out.println() is called, Implicitly toString() is called, that's why it shows @Override.
-    // Overriden and overloaded is different, Overriden method are special methods in JAVA, classes can implement, if
+    // Overridden and overloaded is different, Overridden method are special methods in JAVA, classes can implement, if
     // specific method signatures can use it.
 
     @Override   //POJO, that comes with a boilerplate code, which means, repetitive code for data.
