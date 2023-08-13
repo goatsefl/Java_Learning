@@ -153,5 +153,23 @@ public class Main {
         number.subtract(one);
         System.out.println("number.real= " + number.getReal());
         System.out.println("number.imaginary= " + number.getImaginary());
+
+        // What is a Class Diagram?
+        // It's a way to showcase the list of attributes and behaviours a class exhibits.
+        // Example :
+        /*                CLASS
+        |------------------Animal-------------------------|
+        |-----Attributes----------------------------------|
+        |* Legs                                           |
+        |* Type                                           |
+        |* Weight                                         |
+        |* Height                                         |
+        |* Gender                                         |
+        |-----Behaviour-----------------------------------|
+        |* Speed                                          |
+        |* Bark                                           |
+        |_________________________________________________|
+        */
     }
+
 }
