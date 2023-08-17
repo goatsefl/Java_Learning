@@ -172,6 +172,13 @@ public class Main {
         */
 
         // Lazy Commit for the sake of streak
+
+        public static void doAnimalStuff(Animal animal, String speed){
+            animal.makeNoise();
+            animal.move(speed);
+            System.out.println(animal);
+            System.out.println("_______");
+        }
     }
 
 }
