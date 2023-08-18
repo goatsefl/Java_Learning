@@ -172,7 +172,10 @@ public class Main {
         */
 
         // Lazy Commit for the sake of streak
-
+        Animal animal = new Animal("Generic","small",344.42);
+        doAnimalStuff(animal,"slow");
+        Dog dog = new Dog();
+        doAnimaStuff(dog, "fast");
         public static void doAnimalStuff(Animal animal, String speed){
             animal.makeNoise();
             animal.move(speed);
