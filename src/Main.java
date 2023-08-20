@@ -177,6 +177,7 @@ public class Main {
         Dog dog = new Dog();
         doAnimalStuff(dog, "fast");
     }
+    // This is a function inside the Main.java used for demonstration purposes on Inheritance.
     public static void doAnimalStuff(Animal animal, String speed){
         animal.makeNoise();
         animal.move(speed);
