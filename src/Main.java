@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 //        AccountConstructor constructor = new AccountConstructor("12221",3500,"Swaroop","Java@swaroop.com","7396456123");
-        AccountConstructor constructor = new AccountConstructor();
+       /* AccountConstructor constructor = new AccountConstructor();
         System.out.println(constructor.getNumber());
         System.out.println(constructor.getBalance());
         System.out.println(constructor.getCustomerName());
@@ -153,7 +153,7 @@ public class Main {
         number.subtract(one);
         System.out.println("number.real= " + number.getReal());
         System.out.println("number.imaginary= " + number.getImaginary());
-
+        */
         // What is a Class Diagram?
         // It's a way to showcase the list of attributes and behaviours a class exhibits.
         // Example :
@@ -176,6 +176,10 @@ public class Main {
         doAnimalStuff(animal,"slow");
         Dog dog = new Dog();
         doAnimalStuff(dog, "fast");
+        Dog yorkie = new Dog("Yorkie",15);
+        Dog retriever = new Dog("Labrador Retriever",65,"floppy","Swimmer");
+        doAnimalStuff(yorkie,"fast");
+        doAnimalStuff(retriever,"slow");
     }
     // This is a function inside the Main.java used for demonstration purposes on Inheritance.
     public static void doAnimalStuff(Animal animal, String speed){
