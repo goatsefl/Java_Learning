@@ -182,6 +182,7 @@ public class Main {
         doAnimalStuff(retriever,"slow");
     }
     // This is a function inside the Main.java used for demonstration purposes on Inheritance.
+    // The below method improves the re-usability of code, which is an advantage with Inheritance.
     public static void doAnimalStuff(Animal animal, String speed){
         animal.makeNoise();
         animal.move(speed);
