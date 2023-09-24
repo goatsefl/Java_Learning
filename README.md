@@ -16,24 +16,20 @@
   
   * [AccountConstructor class](https://github.com/goatsefl/Java_Learning/blob/master/src/AccountConstructor.java)
 
-##### 2.2 Constructor Problems :
+##### 2.2 Constructor Problems :[Udemy](https://www.udemy.com/course/java-the-complete-java-developer-course/learn/quiz/4590572#overview)
 [Challenges in Udemy I : Wall Area]
-  * [Wall.java]
-(https://github.com/goatsefl/Java_Learning/blob/master/src/Wall.java) 
-[Challenges in Udemy II : Point]
-  * [Point.java]
-(https://github.com/goatsefl/Java_Learning/blob/master/src/Point.java)
-[Challenges in Udemy III : Carpet cost calculator]
-(https://www.udemy.com/course/java-the-complete-java-developer-course/learn/quiz/4590572#overview)
+  * [Wall.java](https://github.com/goatsefl/Java_Learning/blob/master/src/Wall.java) 
 
-  * [Floor.java]
-(https://github.com/goatsefl/Java_Learning/blob/master/src/Floor.java)
-  * [Carpet.java]
-(https://github.com/goatsefl/Java_Learning/blob/master/src/Carpet.java)
-  * [Calculator.java]
-(https://github.com/goatsefl/Java_Learning/blob/master/src/Calculator.java)
+[Challenges in Udemy II : Point]
+  * [Point.java](https://github.com/goatsefl/Java_Learning/blob/master/src/Point.java)
+
+[Challenges in Udemy III : Carpet cost calculator]
+
+  * [Floor.java](https://github.com/goatsefl/Java_Learning/blob/master/src/Floor.java)
+  * [Carpet.java](https://github.com/goatsefl/Java_Learning/blob/master/src/Carpet.java)
+  * [Calculator.java](https://github.com/goatsefl/Java_Learning/blob/master/src/Calculator.java)
+
 [Challenges in Udemy IV : Complex Operations ]
-  * [ComplexNumber.java]
-(https://github.com/goatsefl/Java_Learning/blob/master/src/ComplexNumber.java)
+  * [ComplexNumber.java](https://github.com/goatsefl/Java_Learning/blob/master/src/ComplexNumber.java)
 
 ### 3. Inheritance
