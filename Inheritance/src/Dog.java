@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Dog extends Animal{
     private String earShape;
     private String tailShape;
@@ -16,10 +18,7 @@ public class Dog extends Animal{
 
     @Override
     public String toString() {
-        return "Dog{" +
-                "earShape='" + earShape + '\'' +
-                ", tailShape='" + tailShape + '\'' +
-                "} " + super.toString();
+        return STR."Dog{earShape='\{earShape}\{'\''}, tailShape='\{tailShape}\{'\''}} \{super.toString()}";
     }
 
     @Override
@@ -33,12 +32,12 @@ public class Dog extends Animal{
             run();
             bark();
         }
-        System.out.println("");
+        System.out.println();
     }
 
     public void makeNoise(){
-        if(type == "Wolf"){
-            System.out.println("OW Woooow");
+        if(Objects.equals(type, "Wolf")){
+            System.out.println("wooooooooo");
         }
         else{
             bark();
