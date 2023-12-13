@@ -26,6 +26,25 @@ public class Main {
         Dog retriever = new Dog("Labrador Retriever",65,"floppy","Swimmer");
         doAnimalStuff(yorkie,"fast");
         doAnimalStuff(retriever,"slow");
+
+
+
+
+        /*This is a SimpleCalculator Challenge for usage of getters and setters, also the usage of "this"*/
+
+        SimpleCalculator calculator = new SimpleCalculator();
+        calculator.setFirstNumber(5.0);
+        calculator.setSecondNumber(4);
+        System.out.println(STR."add= \{calculator.getAdditionResult()}");
+        System.out.println(STR."subtract= \{calculator.getSubtractionResult()}");
+        calculator.setFirstNumber(5.25);
+        calculator.setSecondNumber(0);
+        System.out.println(STR."multiply= \{calculator.getMultiplicationResult()}");
+        System.out.println(STR."divide= \{calculator.getDivisionResult()}");
+
+
+        /*This is a Constructor challenge which challenges on chaining of constructors and how they can be useful using 3 customers as an example.*/
+
         Customer cus1 = new Customer();
         System.out.println(cus1.getName());
         System.out.println(cus1.getEmailAddress());
