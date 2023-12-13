@@ -26,6 +26,18 @@ public class Main {
         Dog retriever = new Dog("Labrador Retriever",65,"floppy","Swimmer");
         doAnimalStuff(yorkie,"fast");
         doAnimalStuff(retriever,"slow");
+        Customer cus1 = new Customer();
+        System.out.println(cus1.getName());
+        System.out.println(cus1.getEmailAddress());
+        System.out.println(cus1.getCreditLimit());
+        Customer cus2 = new Customer("Joey","gobbel@gmail.com");
+        System.out.println(cus2.getName());
+        System.out.println(cus2.getEmailAddress());
+        System.out.println(cus2.getCreditLimit());
+        Customer cus3 = new Customer("Sindhu","snigdha@gmail.com",3500);
+        System.out.println(cus3.getName());
+        System.out.println(cus3.getEmailAddress());
+        System.out.println(cus3.getCreditLimit());
     }
     // This is a function inside the Main.java used for demonstration purposes on Inheritance.
     // The below method improves the re-usability of code, which is an advantage with Inheritance.
