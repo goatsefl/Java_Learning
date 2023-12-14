@@ -2,36 +2,31 @@ public class ComplexNumber {
     private double real;
     private double imaginary;
 
-    public ComplexNumber(double real, double imaginary) {
+    public ComplexNumber(double real, double imaginary){
         this.real = real;
         this.imaginary = imaginary;
     }
 
-    public double getReal() {
+    public double getReal(){
         return real;
     }
-
-    public double getImaginary() {
+    public double getImaginary(){
         return imaginary;
     }
-
-    public void add(double real, double imaginary) {
-        this.real += real;
+    public void add(double real, double imaginary){
         this.imaginary += imaginary;
+        this.real += real;
     }
-
-    public void subtract(double real, double imaginary) {
-        this.real -= real;
-        this.imaginary -= imaginary;
+    public void add(ComplexNumber a){
+        this.real+= a.getReal();
+        this.imaginary+= a.getImaginary();
     }
-
-    public void subtract(ComplexNumber cplxms) {
-        this.real -= cplxms.getReal();
-        this.imaginary -= cplxms.getImaginary();
+    public void subtract(double real, double imaginary){
+        this.imaginary-= imaginary;
+        this.real-= real;
     }
-
-    public void add(ComplexNumber cplxma) {
-        this.real += cplxma.getReal();
-        this.imaginary += cplxma.getImaginary();
+    public void subtract(ComplexNumber s){
+        this.real-= s.getReal();
+        this.imaginary-= s.getImaginary();
     }
 }
