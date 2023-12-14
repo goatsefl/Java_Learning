@@ -27,7 +27,7 @@ public class Fish extends Animal {
         return "Fish{" +
                 "fins=" + fins +
                 ", gills=" + gills +
-                "/' \n }" + super.toString();
+                " \n }" + super.toString();
     }
 }
 
