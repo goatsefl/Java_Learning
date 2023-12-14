@@ -57,7 +57,26 @@ public class Main {
         System.out.println(cus3.getName());
         System.out.println(cus3.getEmailAddress());
         System.out.println(cus3.getCreditLimit());
+
+        /*This part of block is used for Cat class which describes Static and instance variables*/
+        Cat a = new Cat("Mew",23);
+        Cat b = new Cat("Piku",34);
+
+        b.printName();// This will also print Piku as Cat b = new Cat("Piku") is initialized later than Cat "a". Will print the right age for b.
+        a.printName(); // This will Piku, as it is a static variable that is storing the name will print the right age for a.
+
+        /*The below Example will give better Idea of static and instance variables
+        (Also, Class name is considered good practise for static variables instead of reference variables)*/
+        Cat c = new Cat("Ambi",25);
+        c.printName(); // This will print Ambi
+        Cat d = new Cat("Janaki",23);
+        d.printName(); // This will print Janaki
+
+
+
     }
+
+
     // This is a function inside the Main.java used for demonstration purposes on Inheritance.
     // The below method improves the re-usability of code, which is an advantage with Inheritance.
     public static void doAnimalStuff(Animal animal, String speed){
