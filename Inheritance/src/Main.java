@@ -18,6 +18,7 @@ public class Main {
         */
 
         // Lazy Commit for the sake of streak
+
         Animal animal = new Animal("Generic","small",344.42);
         doAnimalStuff(animal,"slow");
         Dog dog = new Dog();
@@ -43,7 +44,7 @@ public class Main {
         System.out.println(STR."divide= \{calculator.getDivisionResult()}");
 
 
-        /*This is a Constructor challenge which challenges on chaining of constructors and how they can be useful using 3 customers as an example.*/
+        /*This is a Constructor challenge which challenges on chaining constructors and how they can be useful,by using 3 customers as an example.*/
 
         Customer cus1 = new Customer();
         System.out.println(cus1.getName());
@@ -64,7 +65,7 @@ public class Main {
 
         b.printName();// This will also print Piku as Cat b = new Cat("Piku") is initialized later than Cat "a". Will print the right age for b.
         a.printName(); // This will Piku, as it is a static variable that is storing the name will print the right age for a.
-
+        System.out.println("\n\n");
         /*The below Example will give better Idea of static and instance variables
         (Also, Class name is considered good practise for static variables instead of reference variables)*/
         Cat c = new Cat("Ambi",25);
@@ -72,7 +73,11 @@ public class Main {
         Cat d = new Cat("Janaki",23);
         d.printName(); // This will print Janaki
 
+//        Fish object which is child class of Animal.java
 
+        Fish gold = new Fish("goldfish",1,3,4);
+
+        doAnimalStuff(gold,"medium");
 
     }
 

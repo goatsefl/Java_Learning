@@ -48,12 +48,12 @@ public class Dog extends Animal{
         System.out.println("Woof! ");
     }
     public void wagTail(){
-        System.out.println("Dog Running ");
+        System.out.println("Dog Wagging ");
     }
     public void run(){
-        System.out.println("Dog Walking ");
+        System.out.println("Dog Running  ");
     }
     public void walk(){
-        System.out.println("Tail Wagging ");
+        System.out.println("Tail Walking ");
     }
 }
