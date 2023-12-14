@@ -1,0 +1,49 @@
+In object-oriented programming, methods in a class can be either static or instance methods.
+
+- **Instance Method:** An instance method operates on an instance of the class. It can access and modify instance variables and is invoked on a specific instance of the class.
+
+- **Static Method:** A static method belongs to the class itself rather than to instances of the class. It can access only static variables and can be called directly on the class without the need for an instance.
+
+Let's demonstrate these concepts in Java:
+
+```java
+public class MyClass {
+    private int value; // Instance variable
+
+    // Instance method
+    public void setValue(int newValue) {
+        this.value = newValue;
+    }
+
+    // Static method
+    public static void printMessage(String message) {
+        System.out.println("Static method: " + message);
+    }
+}
+```
+
+Now, using this class:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Using instance method
+        MyClass obj = new MyClass();
+        obj.setValue(10); // Invoking instance method on an object
+
+        // Using static method
+        MyClass.printMessage("Hello, Static!"); // Calling static method directly on class
+    }
+}
+```
+
+In this example:
+- `setValue` is an instance method. It operates on a specific instance of `MyClass` (object `obj` in this case) and modifies its `value` variable.
+- `printMessage` is a static method. It belongs to the `MyClass` itself and can be called without creating an instance of `MyClass`.
+
+Key points:
+- Instance methods are used to manipulate individual object states.
+- Static methods are used for utility or helper functions that don't rely on specific object instances.
+- Instance methods can access instance variables, whereas static methods can only access static variables (if any) in their class.
+
+Understanding the distinction between static and instance methods helps in designing classes effectively, choosing the appropriate type of methods based on their usage, and managing the behavior and data within your code.
