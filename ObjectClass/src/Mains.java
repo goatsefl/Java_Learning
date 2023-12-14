@@ -6,6 +6,8 @@ public class Mains {
         System.out.println(joey);
     }
 }
+
+// We can modify the sub-class using not only super.toString() but augmenting new string literal values.
 class Students{
     private int age;
     private String name;
@@ -13,10 +15,12 @@ class Students{
         this.age = age;
         this.name = name;
     }
-//    This is just to show the usage of toString()
+//    This is just to show the implicit usage of toString()
     /* public String toString(){
-        return super.toString();
-    }*/
+        return super.toString();}
+    */
+
+//    Explicit usage of toString() that can be modified.
     public String toString(){
         return this.name + " is " + this.age;
     }
@@ -28,6 +32,7 @@ class PrimarySchool extends Students{
         super(name,age);
         this.parentName = parentName;
     }
+//    The super.toString of PrimarySchool class refers to Students class which is "this.name + " is " + this.age".
     public String toString(){
         return this.parentName + "'s kid " + super.toString();
     }
