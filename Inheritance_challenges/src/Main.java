@@ -64,3 +64,16 @@ class Employe extends Person {
         System.out.println("And I work in the " + department + " department");
     }
 }
+
+/*Purpose:
+
+Overloading: Used to provide multiple methods with the same name but different behaviors based on parameter types or numbers.
+Overriding: Used to provide a specific implementation of a method in a subclass that is already defined in its superclass.
+Inheritance:
+
+Overloading is achieved within the same class or its subclasses.
+Overriding occurs between a superclass and its subclass.
+Method Signature:
+
+Overloading changes the method signature (parameters).
+Overriding keeps the method signature the same, providing a different implementation.*/
