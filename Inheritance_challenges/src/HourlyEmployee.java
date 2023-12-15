@@ -7,31 +7,35 @@ public class HourlyEmployee extends Employee{
         this.hours = hours;
     }
     public double getDoublePay(){
-        double d = 0;
-        double n = 0;
-        if(hours < 9 && hours > 7)
-        return n = hours * hourlyPayRate;
-        else if(hours > 8)
-            d = hours * 2 * hourlyPayRate;
-        return d;
-    }
 
+        if(hours == 8){
+            return hours * hourlyPayRate;}
+        else if (hours > 8){
+            return hours * 2 * hourlyPayRate;}
+        else if (hours < 8 && hours >0) {
+            return 1 * hours * hourlyPayRate;
+        }
+        else{
+            return 0;
+        }
+    }
+    // Customized toString() for better understanding of details for Hourly Employees with super class fields.
     @Override
     public String toString() {
         if (hours > 8)
-        return "HourlyEmployee{" +
-                "hours=" + hours +
-                ", employeeId=" + employeeId +
-                ", HourlyPay=" + getDoublePay() +
-                ", endDate='" + endDate + '\'' +
-                ", pay} " + super.toString() + "\n";
-        else { return "HourlyEmployee{" +
-                "hours=" + hours +
-                ", employeeId=" + employeeId +
-                ", HourlyPay=" + getDoublePay() +
-                ", endDate='" + endDate + '\'' +
-                ", pay} " + super.toString() + "\n";
+            return "HourlyEmployee \n{" +
+                    "hours=" + (int)hours +
+                    ", employeeId=" + employeeId +
+                    ", HourlyPay=" + (int)hourlyPayRate +
+                    ", pay=" + (int)getDoublePay() +
+                    "} " +  "\n";
+        else {
+            return "HourlyEmployee \n{" +
+                    "hours=" + (int)hours +
+                    ", employeeId=" + employeeId +
+                    ", HourlyPay=" + (int)hourlyPayRate +
+                    ", pay=" + (int)getDoublePay() +
+                    "} " + "\n";
+            }
         }
     }
-
-}

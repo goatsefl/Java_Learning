@@ -11,9 +11,9 @@ public class Employee extends Worker {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Employee \n{" +
                 "employeeId=" + employeeId +
-                ", hireDate='" + hireDate + '\'' +
-                "} " + super.toString();
+                ", hireDate='" + hireDate +
+                "} " + "\n" + super.toString();
     }
 }

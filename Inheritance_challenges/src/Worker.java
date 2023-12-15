@@ -18,15 +18,33 @@ public class Worker {
         return 0;
     }
     public void Terminate(String endDate){
-        this.endDate = endDate;
+
+        if(getAge() > 60){
+            this.endDate = "2023";
+        }
+        else{
+            this.endDate = endDate;
+        }
     }
 
     @Override
     public String toString() {
-        return "Worker{" +
+
+        String x = "Worker \n{" +
+                "name='" + name + '\'' +
+                ", birthDate='" + birthDate + '\'' +
+                ", endDate='" + endDate  +
+                '}' + '\n';
+        String y = "Worker \n{" +
                 "name='" + name + '\'' +
                 ", birthDate='" + birthDate + '\'' +
                 ", endDate='" + endDate + '\'' +
-                '}';
+                '}'+ '\n';
+        if(endDate == null){
+            return x;
+        }
+        else{
+            return y;
+        }
     }
 }

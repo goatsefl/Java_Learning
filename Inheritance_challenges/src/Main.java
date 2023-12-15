@@ -17,5 +17,12 @@ public class Main {
         Employee mujun = new Employee("Mujunna","21/12/1940","12/1/2013");
         mujun.Terminate("11/11/2023");
         System.out.println(mujun + " "+ mujun.getAge() + "" + "\n");
+
+        HourlyEmployee hanzo = new HourlyEmployee("Hanzo Gonzalez","20/11/1994","12/04/2020",12);
+        System.out.println(hanzo);
+
+        System.out.println(hanzo.employeeId);
+
+
     }
 }
