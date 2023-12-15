@@ -23,6 +23,44 @@ public class Main {
 
         System.out.println(hanzo.employeeId);
 
+        Employe John = new Employe();
+        John.name = "John Doe";
+        John.department = "Marketing";
+        John.introduce(); // Outputs: My name is John Doe. And I work in the Marketing department.
+    }
+}
 
+// The usage of this and super is showcased here to understand it in-depth in the challenge.
+// The code below uses Bard's generated code and definition for easier definition, which has been cross-checked from my side.
+// It's the most important concept in entire of java.
+
+/*
+this:
+
+Refers to the current object instance.
+Used to access non-static members (fields and methods) within the same class.
+Helps avoid ambiguity, especially when method parameters or local variables have the same name as class members.
+
+super:
+
+Refers to the immediate superclass of the current class.
+Used to access members (fields and methods) declared in the superclass.
+Useful for overriding methods or accessing superclass functionality when needed.*/
+
+class Person {
+    String name;
+
+    void introduce() {
+        System.out.println("My name is " + name); // Accesses current object's name using "this"
+    }
+}
+
+class Employe extends Person {
+    String department;
+
+    @Override
+    void introduce() {
+        super.introduce(); // Calls parent class introduce() using "super"
+        System.out.println("And I work in the " + department + " department");
     }
 }
