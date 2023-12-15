@@ -18,11 +18,20 @@ public class HourlyEmployee extends Employee{
 
     @Override
     public String toString() {
+        if (hours > 8)
         return "HourlyEmployee{" +
                 "hours=" + hours +
                 ", employeeId=" + employeeId +
+                ", HourlyPay=" + getDoublePay() +
                 ", endDate='" + endDate + '\'' +
-                ", pay} " + super.toString();
+                ", pay} " + super.toString() + "\n";
+        else { return "HourlyEmployee{" +
+                "hours=" + hours +
+                ", employeeId=" + employeeId +
+                ", HourlyPay=" + getDoublePay() +
+                ", endDate='" + endDate + '\'' +
+                ", pay} " + super.toString() + "\n";
+        }
     }
 
 }
