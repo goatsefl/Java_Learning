@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa5f4d39-1738-477d-8c78-e880168e5a75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formatting_java/.idea/Formatting_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Formatting_java/.idea/Formatting_java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formatting_java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Formatting_java/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AccountConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/AccountConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bankaccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Bankaccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Carpet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/ComplexNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Floor.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Floor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NewStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/NewStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +176,7 @@
       <workItem from="1702499141600" duration="18447000" />
       <workItem from="1702563199402" duration="4821000" />
       <workItem from="1702661076956" duration="742000" />
-      <workItem from="1702730544777" duration="1803000" />
+      <workItem from="1702730544777" duration="3833000" />
     </task>
     <servers />
   </component>
