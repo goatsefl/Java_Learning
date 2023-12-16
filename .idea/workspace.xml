@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa5f4d39-1738-477d-8c78-e880168e5a75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Strings/Strings.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RICO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/RICO.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVI.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/SVI.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +183,7 @@
       <workItem from="1702499141600" duration="18447000" />
       <workItem from="1702563199402" duration="4821000" />
       <workItem from="1702661076956" duration="742000" />
-      <workItem from="1702730544777" duration="6350000" />
+      <workItem from="1702730544777" duration="8423000" />
     </task>
     <servers />
   </component>

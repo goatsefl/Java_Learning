@@ -64,7 +64,7 @@ public class Main {
         Cat b = new Cat("Piku",34);
 
         b.printName();// This will also print Piku as Cat b = new Cat("Piku") is initialized later than Cat "a". Will print the right age for b.
-        a.printName(); // This will Piku, as it is a static variable that is storing the name will print the right age for a.
+        a.printName(); // This will be printed Piku, as it is a static variable that is storing the name will print the right age for a.
         System.out.println("\n\n");
         /*The below Example will give better Idea of static and instance variables
         (Also, Class name is considered good practise for static variables instead of reference variables)*/

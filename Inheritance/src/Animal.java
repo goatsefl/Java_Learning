@@ -1,3 +1,5 @@
+import static java.lang.StringTemplate.STR;
+
 public class Animal {
     protected String type;
     private String size;
