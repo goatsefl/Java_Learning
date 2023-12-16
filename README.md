@@ -33,3 +33,14 @@
   * [ComplexNumber.java](./OOPS_Concepts/src/ComplexNumber.java)
 
 ### 3. Inheritance
+
+#### [Main Class](./Inheritance/src/Main.java)
+  
+
+[Inheritance Challenge]
+  * [Inheritance Challenge](./Inheritance_challenges/src/Main.java)
+    * [Parent Class Worker](./Inheritance_challenges/src/Worker.java)
+    * [Sub Class Employee](./Inheritance_challenges/src/Employee.java)
+    * [Super Sub Class HourlyEmployee](./Inheritance_challenges/src/HourlyEmployee.java)
+    * [Super Sub Class SalariedEmployee](./Inheritance_challenges/src/SalariedEmployee.java)
+  
