@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 //        AccountConstructor constructor = new AccountConstructor("12221",3500,"Swaroop","Java@swaroop.com","7396456123");
-       /* AccountConstructor constructor = new AccountConstructor();
+        AccountConstructor constructor = new AccountConstructor();
         System.out.println(constructor.getNumber());
         System.out.println(constructor.getBalance());
         System.out.println(constructor.getCustomerName());
         System.out.println(constructor.getEmail());
-
+        System.out.println("\n");
         //Basic Car
         Car cars = new Car();
         cars.setMake("Maruti");
@@ -42,7 +42,7 @@ public class Main {
         AccountConstructor indi = new AccountConstructor("Sreekar","sreekar@gmail.com","8988289221");
 
         System.out.println(indi.getEmail() +"\n"+ indi.getCustomerName() +"\n"+ indi.getPhone() +" "+ indi.getNumber());
-
+        System.out.println("\n");
         // Constructor [Challenge 2]
 
         //With all Parameters
@@ -50,19 +50,19 @@ public class Main {
         System.out.println(id1.getName());
         System.out.println(id1.getCreditLimit());
         System.out.println(id1.getEmail());
-
+        System.out.println("\n");
         //With 2 parameters
         Customer id2 = new Customer("Swapnil","swapnilshehzada@gmail.com");
         System.out.println(id2.getName());
         System.out.println(id2.getCreditLimit());
         System.out.println(id2.getEmail());
-
+        System.out.println("\n");
         // With no parameters
         Customer id3 = new Customer();
         System.out.println(id3.getName());
         System.out.println(id3.getCreditLimit());
         System.out.println(id3.getEmail());
-
+        System.out.println("\n");
 
 
         // Pojo Plain Old Java Object
@@ -80,7 +80,9 @@ public class Main {
                     "03/02/2002",
                     "Java Mastering");
             System.out.println(s);
+
         }
+        System.out.println("\n");
 
         // NewStudent is a record which eliminates boilerplate code unlike POJO
 
@@ -99,7 +101,7 @@ public class Main {
             System.out.println(s1);
 
         }
-
+        System.out.println("\n");
         // Comparing POJO and records :
 
         Student x = new Student("13445","Aditya","01/01/2001","Python MasterClass");
@@ -107,7 +109,7 @@ public class Main {
 
         System.out.println(x.getName()+" "+x.getId() +" "+x.getClassList()+" "+x.getDateOfBirth());
         System.out.println(y.id()+" "+y.name()+" "+y.dateOfBirth()+" "+y.classList());
-
+        System.out.println("\n");
         //Challenge [3]
         Wall wall = new Wall(5,4);
         System.out.println("area= " + wall.getArea());
@@ -116,7 +118,7 @@ public class Main {
         System.out.println("width= " + wall.getWidth());
         System.out.println("height= " + wall.getHeight());
         System.out.println("area= " + wall.getArea());
-
+        System.out.println("\n");
         // Coding Practise [4]
         Point first = new Point(6, 5);
         Point second = new Point(3, 1);
@@ -125,7 +127,7 @@ public class Main {
         System.out.println("distance(2,2)= " + first.distance(2, 2));
         Point point = new Point();
         System.out.println("distance()= " + point.distance());
-
+        System.out.println("\n");
         // Calculator
 
         Carpet carpet = new Carpet(3.5);
@@ -138,7 +140,7 @@ public class Main {
 
         calculator = new Calculator(floor, carpet);
         System.out.println("total= " + calculator.getTotalCost());
-
+        System.out.println("\n");
         // Complex Number Basic Addition & Subtraction;
 
 
@@ -153,25 +155,25 @@ public class Main {
         number.subtract(one);
         System.out.println("number.real= " + number.getReal());
         System.out.println("number.imaginary= " + number.getImaginary());
-        */
-
+        System.out.println("\n");
+        System.out.println("\n");
         /* This code below is a challenge based on Complex Number
         * A complex number is a number that can be expressed in the form a + bi, where a and b are real numbers,
         * and i is a solution of the equation x2 = −1. Because no real number satisfies this equation, i is called an imaginary number.
         * For the complex number a + bi, a is called the real part, and b is called the imaginary part. To add or subtract two complex numbers,
         * just add or subtract the corresponding real and imaginary parts. For instance, the sum of 5 + 3i and 4 + 2i is 9 + 5i. For another,
         * the sum of 3 + i and –1 + 2i is 2 + 3i.*/
-        ComplexNumber one = new ComplexNumber(1.0, 1.0);
-        ComplexNumber number = new ComplexNumber(2.5, -1.5);
-        one.add(1,1);
-        System.out.println(STR."one.real= \{one.getReal()}");
-        System.out.println(STR."one.imaginary= \{one.getImaginary()}");
-        one.subtract(number);
-        System.out.println(STR."one.real= \{one.getReal()}");
-        System.out.println(STR."one.imaginary= \{one.getImaginary()}");
-        number.subtract(one);
-        System.out.println(STR."number.real= \{number.getReal()}");
-        System.out.println(STR."number.imaginary= \{number.getImaginary()}");
+        ComplexNumber one_1 = new ComplexNumber(1.0, 1.0);
+        ComplexNumber numbers = new ComplexNumber(2.5, -1.5);
+        one_1.add(1,1);
+        System.out.println(STR."one.real= \{one_1.getReal()}");
+        System.out.println(STR."one.imaginary= \{one_1.getImaginary()}");
+        one_1.subtract(numbers);
+        System.out.println(STR."one.real= \{one_1.getReal()}");
+        System.out.println(STR."one.imaginary= \{one_1.getImaginary()}");
+        numbers.subtract(one_1);
+        System.out.println(STR."number.real= \{numbers.getReal()}");
+        System.out.println(STR."number.imaginary= \{numbers.getImaginary()}");
 
 
     }
