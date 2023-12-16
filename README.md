@@ -1,5 +1,6 @@
 # Learning_Java
-## Understanding Object Oriented Programming [Course : THE COMPLETE JAVA DEVELOPER]
+## Understanding Object Oriented Programming. [Course : THE COMPLETE JAVA DEVELOPER]
+## Comprehensive information of Java Concepts have been added in comments for each class.
 ### 1. Understanding getters & setters [Challenge 1]
  
 * [Main class](./OOPS_Concepts/src/Main.java) 
@@ -42,7 +43,7 @@
     * [Sub Class - Fish Class](./Inheritance/src/Fish.java)
 
 [Inheritance Challenge : Understanding Hierarchy with an example]
-    []
+    
   * [Inheritance Challenge](./Inheritance_challenges/src/Main.java)
     * [Parent Class Worker](./Inheritance_challenges/src/Worker.java)
       * [Sub Class Employee](./Inheritance_challenges/src/Employee.java)
