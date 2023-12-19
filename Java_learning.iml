@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ObjectClass/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Formatting_java/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Inheritance_challenges/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OOPS_Concepts/src" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/out" />

@@ -21,20 +21,25 @@ public class Main {
         int year = 2023;
         System.out.printf("My age is %d in the year %d%n", age, year);
 
-//        The %d is format specifier for the type int, if we need float, we can use %f
-//        age, year after the String literal is used to specify for which format it is used.
-/*
-If a user wants to specify precision of 4 points after the decimal, they can do it by this %.4f
-Let's see how it works.
-*/
+//  The %d is format specifier for the type int, if we need float, we can use %f
+//  age, year after the String literal is used to specify for which format it is used.
+
+        /*
+    If a user wants to specify precision of 4 points after the decimal, they can do it by this %.4f
+    Let's see how it works.
+
+        */
         System.out.printf("%d is %.6f%n",year,(float)age);
         System.out.printf("%10d is %.1f",year,(float)age);
 
-//      This is updated way to use.
+//  This is updated way to use.
+
         String formats = "My age is %d".formatted(age);
 
         System.out.printf(formats);
-//        This is outdated.
+
+//  This is outdated.
+
         formats = String.format("My age is %d",age);
 
         System.out.printf(formats);
