@@ -59,8 +59,51 @@ public class Main {
 //  These are String manipulation methods below.
         String birthdate = "03/07/1996";
         int startingIndex = birthdate.indexOf("1996");
-        System.out.println("Birth day is on =" + birthdate);
-        System.out.println("Year is =" + birthdate.substring(startingIndex));
+        System.out.println("Birth day is on = " + birthdate);
+        System.out.println("Year is = " + birthdate.substring(startingIndex));
+
+//  substring(Starting Index, Ending Index)
+//  substring() has 2 parameters if not, it can take an index and provide you the string till the end.
+
+        System.out.println("Month = " + birthdate.substring(3,5));
+
+//  Delimiter using String.join
+
+        String joined = String.join("/","03","07","1996");
+        System.out.println("New Date using joins = " + joined );
+
+//  Using .concat() on joined.
+        joined = "";
+        joined = joined.concat("03");
+        joined = joined.concat("/");
+        joined = joined.concat("07");
+        joined = joined.concat("/");
+        joined = joined.concat("1996");
+        System.out.println("New Date using .concat() = " + joined );
+
+//  Using basic syntax.
+
+        joined = "03" + "/"+ "07" + "/" + "1996";
+
+        System.out.println("New date using basic syntax" + joined);
+
+//  Using basic concat chaining.
+
+        joined = "03".concat("/").concat("07").concat("/").concat("1996");
+        System.out.println(joined);
+
+//  Using .replace() to replace existing string literal or string with new string literal or string.
+
+        joined = joined.replace("/","-");
+        System.out.println("Using .replace() to replace '/' to '-': " + joined );
+
+//  New combination .replaceFirst() will only replace first occurrence of the target with replacement parameter.
+
+        joined = joined.replaceFirst("-","/");
+        System.out.println(".replaceFirst() gives you " + joined);
+
+        joined = joined.replaceAll("-","/-///-/");
+        System.out.println("replaceAll() changes all occurrences of string with replacement " + joined);
     }
 
     public static void printInformation(String string) {
@@ -82,3 +125,31 @@ public class Main {
     }
 
 }
+
+/* OUTPUT :
+
+Length = 16
+Second Character = e
+Last Character = l
+The first index of l = 2
+The last index of l = 15
+Index of Joel = 12
+String is of length is 16
+String is Blank
+String isn't Empty
+Length = 4
+Value matches the case and value
+Value does not match the case, only value
+
+
+Birth day is on = 03/07/1996
+Year is = 1996
+Month = 07
+New Date using joins = 03/07/1996
+New Date using .concat() = 03/07/1996
+New date using basic syntax03/07/1996
+03/07/1996
+Using .replace() to replace '/' to '-': 03-07-1996
+.replaceFirst() gives you 03/07-1996
+replaceAll() changes all occurrences of string with replacement 03/07/-///-/1996
+ */
