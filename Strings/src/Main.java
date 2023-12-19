@@ -104,6 +104,16 @@ public class Main {
 
         joined = joined.replaceAll("-","/-///-/");
         System.out.println("replaceAll() changes all occurrences of string with replacement " + joined);
+
+
+//  repeat method and indent method are one of the more useful methods, if you want a repeated string to be printed in a simple way.
+        System.out.println("Tim\n".repeat(4));
+        System.out.println("|\n".repeat(8).indent(4));
+
+//  Negative number deletes the trailing whitespaces and moves the string to the left.
+        System.out.println("        Cook, there are 9 spaces behind me in native code, but in output it will be 6.\n".repeat(4).indent(-3));
+//  Unsigned number moves the String to the right and indents it "n" of spaces
+        System.out.println("Apple\n".repeat(4).indent(3)); //
     }
 
     public static void printInformation(String string) {
@@ -152,4 +162,27 @@ New date using basic syntax03/07/1996
 Using .replace() to replace '/' to '-': 03-07-1996
 .replaceFirst() gives you 03/07-1996
 replaceAll() changes all occurrences of string with replacement 03/07/-///-/1996
+Tim
+Tim
+Tim
+Tim
+
+    |
+    |
+    |
+    |
+    |
+    |
+    |
+    |
+
+     Cook, there are 9 spaces behind me in native code, but in output it will be 6.
+     Cook, there are 9 spaces behind me in native code, but in output it will be 6.
+     Cook, there are 9 spaces behind me in native code, but in output it will be 6.
+     Cook, there are 9 spaces behind me in native code, but in output it will be 6.
+
+   Apple
+   Apple
+   Apple
+   Apple
  */
