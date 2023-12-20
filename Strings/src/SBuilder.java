@@ -46,4 +46,16 @@ public class SBuilder {
 }
 
 /*OUTPUT:
-* */
+
+Hello  New  String  Mutable
+Hello New String
+Adding 3 operations in one line for the stringB =  Hello  Nstw  String  Mutable
+This will repeat for 5 times
+This will repeat for 5 times
+This will repeat for 5 times
+This will repeat for 5 times
+This will repeat for 5 times
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+*/

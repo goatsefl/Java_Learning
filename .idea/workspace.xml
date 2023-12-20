@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa5f4d39-1738-477d-8c78-e880168e5a75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Strings/src/SBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formatting_java/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Formatting_java/src/Formatting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPS_Concepts/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPS_Concepts/src/OOPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/src/SBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Strings/src/SBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +181,7 @@
       <workItem from="1702661076956" duration="742000" />
       <workItem from="1702730544777" duration="20412000" />
       <workItem from="1702944587569" duration="633000" />
-      <workItem from="1702981750800" duration="20719000" />
+      <workItem from="1702981750800" duration="22111000" />
     </task>
     <servers />
   </component>
