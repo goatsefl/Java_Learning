@@ -1,4 +1,4 @@
-public class Main {
+public class Strings {
 
     /*There are multiple String methods, ranging more than 60. This class will just use few to give an idea of the usage
      * and how it can help the programmer or developer to use these methods making the code readable and */

@@ -1,4 +1,4 @@
-public class Main {
+public class OOPS {
     public static void main(String[] args) {
 //        AccountConstructor constructor = new AccountConstructor("12221",3500,"Swaroop","Java@swaroop.com","7396456123");
         AccountConstructor constructor = new AccountConstructor();

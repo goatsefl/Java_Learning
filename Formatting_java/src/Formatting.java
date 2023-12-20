@@ -1,6 +1,6 @@
-package src;
 
-public class Main {
+
+public class Formatting {
     public static void main(String[] args){
 
         /* Text blocks are a simple way to format Stings without remembering difficult syntax. */

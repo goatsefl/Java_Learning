@@ -3,7 +3,7 @@
 ## Comprehensive information of Java Concepts have been added in comments for each class.
 ### 1. Understanding getters & setters [Challenge 1]
  
-* [Main class](./OOPS_Concepts/src/Main.java) 
+* [Main class](./OOPS_Concepts/src/OOPS.java) 
 
   * [Car class](./OOPS_Concepts/src/Car.java)
 
@@ -11,7 +11,7 @@
 
 ### 2. Constructors [Challenge 2]
 
-* [Main class](./OOPS_Concepts/src/Main.java) 
+* [Main class](./OOPS_Concepts/src/OOPS.java) 
 
 ##### 2.1 Constructor Chaining is included in the AccountConstructor class
   
