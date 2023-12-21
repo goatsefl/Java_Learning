@@ -50,4 +50,12 @@
       * [Sub Class Employee](./Inheritance_challenges/src/Employee.java)
       * * [Super Sub Class HourlyEmployee](./Inheritance_challenges/src/HourlyEmployee.java)
       * * [Super Sub Class SalariedEmployee](./Inheritance_challenges/src/SalariedEmployee.java)
-  
+
+### 4. Strings and Formatting 
+    
+* [String Methods with Examples](./Strings/src/Strings.java)
+* [StringBuild and the difference against String](./Strings/src/SBuilder.java)
+
+### 5. Composition
+###### _**(UPDATING README WITH CHALLENGES)**_
+
