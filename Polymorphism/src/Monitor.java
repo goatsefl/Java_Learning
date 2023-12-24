@@ -1,4 +1,6 @@
-public class Monitor extends Product{
+package Polymorphism.src;
+
+public class Monitor extends PersonalComputer{
 
     private int size;
     private String resolution;
@@ -11,6 +13,6 @@ public class Monitor extends Product{
         this.size = size;
     }
     public void drawPixelAt(int x , int y, String color){
-
+        System.out.println(String.format("Drawing pixel at %d,%d in color %s",x,y,color));
     }
 }

@@ -1,4 +1,6 @@
-public class ComputerCase extends Product{
+package Polymorphism.src;
+
+public class ComputerCase extends PersonalComputer{
 
     private String powerSupply;
     public ComputerCase(String model, String manufacturer) {
@@ -10,6 +12,6 @@ public class ComputerCase extends Product{
     }
 
     public String pressPowerButton(){
-        return "";
+        return "Pc is Turning On";
     }
 }
