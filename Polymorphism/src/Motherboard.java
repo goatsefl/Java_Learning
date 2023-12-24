@@ -4,7 +4,12 @@ public class Motherboard extends PersonalComputer{
     private int ramSlots;
     private int cardSlots;
     private String bios;
-
+/*
+Motherboard extends PersonalComputer, managing ramSlots, cardSlots, and bios.
+Constructors initialize model, manufacturer, and related parameters.
+toString() displays motherboard info with PC details,
+while loadProgram() prints a loading message for a program.
+*/
 
     public Motherboard(String model, String manufacturer) {
         super(model, manufacturer);

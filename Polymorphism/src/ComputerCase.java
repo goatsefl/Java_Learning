@@ -1,6 +1,11 @@
 package Polymorphism.src;
 
 public class ComputerCase extends PersonalComputer{
+    /*
+    ComputerCase extends PersonalComputer, holding powerSupply details.
+    Constructors set model, manufacturer, and power supply.
+    toString() details the case, while pressPowerButton() signals the PC turning on.
+     */
 
     private String powerSupply;
     public ComputerCase(String model, String manufacturer) {

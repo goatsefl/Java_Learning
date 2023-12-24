@@ -20,6 +20,13 @@ public class PersonalComputer extends Product{
         this.ccase = ccase;
     }
 
+    /*
+    The PersonalComputer class extends Product, incorporating composition through Motherboard, Monitor, and ComputerCase.
+    Constructors initialize model, manufacturer, and components.
+    Accessor methods retrieve individual components.
+    toString() method presents PC details, including its components, alongside the product's model and manufacturer.
+    */
+
 
     public Motherboard getMotherboard() {
         return motherboard;
