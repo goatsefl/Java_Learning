@@ -37,6 +37,6 @@ public class PersonalComputer extends Product{
                 "motherboard=" + motherboard +
                 ", monitor=" + monitor +
                 ", ccase=" + ccase +
-                "} " + super.toString();
+                "} " + super.toString() + "\n";
     }
 }

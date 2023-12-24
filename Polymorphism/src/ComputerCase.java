@@ -15,7 +15,7 @@ public class ComputerCase extends PersonalComputer{
     public String toString() {
         return "ComputerCase{" +
                 "powerSupply='" + powerSupply + '\'' +
-                "} " + super.toString();
+                "} " + super.toString()+ "\n";
     }
 
     public String pressPowerButton(){

@@ -18,7 +18,7 @@ public class Monitor extends PersonalComputer{
         return "Monitor{" +
                 "size=" + size +
                 ", resolution='" + resolution + '\'' +
-                "} " + super.toString();
+                "} " + super.toString()+ "\n";
     }
 
     public void drawPixelAt(int x , int y, String color){

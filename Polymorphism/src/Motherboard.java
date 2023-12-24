@@ -23,7 +23,7 @@ public class Motherboard extends PersonalComputer{
                 "ramSlots=" + ramSlots +
                 ", cardSlots=" + cardSlots +
                 ", bios='" + bios + '\'' +
-                "} " + super.toString();
+                "} " + super.toString()+ "\n";
     }
 
     public void loadProgram(String programName){
