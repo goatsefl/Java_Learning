@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa5f4d39-1738-477d-8c78-e880168e5a75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Polymorphism/src/InheritanceVComposition.txt" afterDir="false" />
-    </list>
+    <list default="true" id="fa5f4d39-1738-477d-8c78-e880168e5a75" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +187,7 @@
       <workItem from="1702944587569" duration="633000" />
       <workItem from="1702981750800" duration="22641000" />
       <workItem from="1703136559239" duration="663000" />
-      <workItem from="1703416226747" duration="6772000" />
+      <workItem from="1703416226747" duration="6995000" />
     </task>
     <servers />
   </component>
