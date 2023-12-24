@@ -17,6 +17,15 @@ public class Motherboard extends PersonalComputer{
         this.bios = bios;
     }
 
+    @Override
+    public String toString() {
+        return "Motherboard{" +
+                "ramSlots=" + ramSlots +
+                ", cardSlots=" + cardSlots +
+                ", bios='" + bios + '\'' +
+                "} " + super.toString();
+    }
+
     public void loadProgram(String programName){
         System.out.println("Program" + programName + "it is now Loading");
     }

@@ -11,5 +11,14 @@ public class Product {
     public Product(String model, String manufacturer) {
         this.model = model;
         this.manufacturer = manufacturer;
+
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "model='" + model + '\'' +
+                ", manufacturer='" + manufacturer + '\'' +
+                '}';
     }
 }

@@ -12,6 +12,15 @@ public class Monitor extends PersonalComputer{
         this.resolution = resolution;
         this.size = size;
     }
+
+    @Override
+    public String toString() {
+        return "Monitor{" +
+                "size=" + size +
+                ", resolution='" + resolution + '\'' +
+                "} " + super.toString();
+    }
+
     public void drawPixelAt(int x , int y, String color){
         System.out.println(String.format("Drawing pixel at %d,%d in color %s",x,y,color));
     }

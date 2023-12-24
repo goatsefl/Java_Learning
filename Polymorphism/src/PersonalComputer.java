@@ -30,4 +30,13 @@ public class PersonalComputer extends Product{
     public ComputerCase getCcase() {
         return ccase;
     }
+
+    @Override
+    public String toString() {
+        return "PersonalComputer{" +
+                "motherboard=" + motherboard +
+                ", monitor=" + monitor +
+                ", ccase=" + ccase +
+                "} " + super.toString();
+    }
 }

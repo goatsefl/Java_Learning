@@ -11,6 +11,13 @@ public class ComputerCase extends PersonalComputer{
         this.powerSupply = powerSupply;
     }
 
+    @Override
+    public String toString() {
+        return "ComputerCase{" +
+                "powerSupply='" + powerSupply + '\'' +
+                "} " + super.toString();
+    }
+
     public String pressPowerButton(){
         return "Pc is Turning On";
     }
