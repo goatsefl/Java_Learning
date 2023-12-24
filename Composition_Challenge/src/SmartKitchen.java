@@ -72,3 +72,12 @@ class DishWasher{
         }
     }
 }
+
+/*
+Output:
+Washing Dishes
+Brewing coffee
+Ordering Food
+Brewing coffee
+Washing Dishes
+ */
