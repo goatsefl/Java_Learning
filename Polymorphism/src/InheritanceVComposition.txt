@@ -1,7 +1,9 @@
-. Tight Coupling: Inheritance creates a tight coupling between classes, leading to:
+Issues with Inheritance:
 
-Reduced Flexibility: Changes in the superclass can ripple through to subclasses, potentially breaking code.
-Limited Reuse: Subclasses are inherently tied to their superclass, making them less reusable in different contexts.
+1. Tight Coupling: Inheritance creates a tight coupling between classes, leading to:
+    - Reduced Flexibility: Changes in the superclass can ripple through to subclasses, potentially breaking code.
+    - Limited Reuse: Subclasses are inherently tied to their superclass, making them less reusable in different contexts.
+
 2. The "Is-A" vs. "Has-A" Relationship: Inheritance implies an "is-a" relationship, which isn't always appropriate. Composition, on the other hand, models a "has-a" relationship, which often better reflects real-world relationships between objects.
 
 3. Overuse of Inheritance: Excessive use of inheritance can lead to complex class hierarchies that are difficult to maintain and understand.
@@ -12,14 +14,16 @@ Limited Reuse: Subclasses are inherently tied to their superclass, making them l
 
 Benefits of Composition:
 
-Loose Coupling: Classes are more independent and less affected by changes in other classes.
-Increased Flexibility: Components can be easily added, removed, or replaced without affecting the overall structure.
-Better Encapsulation: Composition promotes better encapsulation by hiding implementation details within objects.
-Enhanced Testability: Composed classes are often easier to test in isolation due to their reduced dependencies.
+- Loose Coupling: Classes are more independent and less affected by changes in other classes.
+- Increased Flexibility: Components can be easily added, removed, or replaced without affecting the overall structure.
+- Better Encapsulation: Composition promotes better encapsulation by hiding implementation details within objects.
+- Enhanced Testability: Composed classes are often easier to test in isolation due to their reduced dependencies.
+
 When to Choose Composition:
 
-When modeling "has-a" relationships over "is-a" relationships.
-When prioritizing flexibility and maintainability.
-When avoiding tight coupling between classes.
-When designing for testability.
+- When modeling "has-a" relationships over "is-a" relationships.
+- When prioritizing flexibility and maintainability.
+- When avoiding tight coupling between classes.
+- When designing for testability.
+
 In summary, while inheritance has its place in object-oriented design, composition often provides a more flexible, maintainable, and testable approach to code organization in Java.
