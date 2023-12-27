@@ -1,3 +1,6 @@
+
+
+
 public class Printer {
     private int tonerLevel;
     private int pagesPrinted;
@@ -44,3 +47,5 @@ public class Printer {
         return pagesPrinted;
     }
 }
+
+
