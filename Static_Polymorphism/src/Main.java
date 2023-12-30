@@ -41,5 +41,8 @@ public class Main {
             Movie movie1 = Movie.getMovie(type,title);
             movie1.watchMovie();
         }
+//  Movie.getMovie(type,title) won't be compiled with an error if the cast as Adventure class is present.
+        Adventure a1 =  (Adventure) Movie.getMovie("A","Caged");
+        a1.watchMovie();
     }
 }

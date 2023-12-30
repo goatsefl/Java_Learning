@@ -10,7 +10,7 @@ public class Movie {
         System.out.println(title +" is a " + instanceType + " film");
     }
 
-//  This is an example of a static factory method. A static factory method is a method that returns an instance of a class.
+//  This is an example of a factory method. Factory method is a method that returns an instance of a class.
 //  It's often used to create instances of a class based on certain parameters or conditions.
     public static Movie getMovie(String type,String title){
         return  switch(type.toUpperCase().charAt(0)) {
