@@ -1,3 +1,5 @@
+package Encapsulation.src;
+
 public class Player {
 
     public String name;

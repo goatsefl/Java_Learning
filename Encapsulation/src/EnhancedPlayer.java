@@ -1,4 +1,6 @@
+package Encapsulation.src;
 import java.util.StringJoiner;
+
 
 public class EnhancedPlayer {
     private String name;

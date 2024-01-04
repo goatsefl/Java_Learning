@@ -1,3 +1,4 @@
+package Composition_Challenge.src;
 public class Ceiling {
     private int height;
     private int paintedColor;

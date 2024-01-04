@@ -1,3 +1,5 @@
+package Composition_Challenge.src;
+
 public class SmartKitchen {
     private CoffeeMaker brewMaster;
     private Refrigerator iceBox;

@@ -1,3 +1,4 @@
+package Composition_Challenge.src;
 public class Bed{
     private String style;
     private int pillows;

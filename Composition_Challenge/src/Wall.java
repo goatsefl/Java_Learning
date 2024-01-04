@@ -1,3 +1,4 @@
+package Composition_Challenge.src;
 public class Wall {
     private String direction;
 

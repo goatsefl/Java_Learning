@@ -1,3 +1,4 @@
+package Static_Polymorphism.src;
 public class Comedy extends Movie{
     public Comedy(String title) {
         super(title);
@@ -10,5 +11,8 @@ public class Comedy extends Movie{
                 "Happy Moment",
                 "Funny Music",
                 "Something funny Happens");
+    }
+    public void watchComedy(){
+        System.out.println("Watching Comedy");
     }
 }

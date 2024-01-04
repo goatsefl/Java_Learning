@@ -1,3 +1,4 @@
+package Static_Polymorphism.src;
 public class Adventure extends Movie{
     public Adventure(String title) {
         super(title);
@@ -10,5 +11,8 @@ public class Adventure extends Movie{
                            "Pleasant Scene",
                             "Scary Music",
                             "Something Bad Happens");
+    }
+    public void watchAdventure(){
+        System.out.println("Watching Adventure");
     }
 }
