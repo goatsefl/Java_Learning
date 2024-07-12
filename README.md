@@ -54,7 +54,7 @@
 ### 4. Strings and Formatting 
     
 * [String Methods with Examples](./Strings/src/Strings.java)
-* [StringBuild and the difference against String](./Strings/src/SBuilder.java)
+* [StringBuilder and the difference against String](./Strings/src/SBuilder.java)
 
 ### 5. Composition
 ###### _**(UPDATING README WITH CHALLENGES)**_
